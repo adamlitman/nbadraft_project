@@ -44,7 +44,9 @@ Started by creating dummy variables and splitting the data into training and tes
 
 I tested 4 different categorical models and used a scaler to improve the 2 most accurate ones. I used a simple accuracy score to determine the success of a model. 
 
-- K-nearest neighbors: accuracy = 
-- Naive Bayes: accuracy = 
-- Logistic Regression: accuracy = 
-- Decision Tree: accuracy = 
+- K-nearest neighbors: accuracy = 0.67
+- Naive Bayes: accuracy = 0.55
+- Logistic Regression: accuracy = 0.86
+- Decision Tree: accuracy = 0.85
+
+The Logistic Regression and Decision Tree models clearly performed best, with Logistic Regression getting the slight edge. 
