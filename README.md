@@ -40,6 +40,8 @@ Highlights from EDA
 ![image 3](/bar_college.png)
 
 ## Model Building and Scoring
+The goal of model building was to design a classifier that designates players as 'overdrafted', 'underdrafted', or 'even' based on their draft position and subsequent success in the NBA.
+
 Started by creating dummy variables and splitting the data into training and test sets with a test size of 20%.
 
 I tested 4 different categorical models and used a scaler to improve the 2 most accurate ones. I used a simple accuracy score to determine the success of a model. 
