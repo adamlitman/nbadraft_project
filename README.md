@@ -32,4 +32,19 @@ Modified the scraper in the article above to pull 30 years of NBA Draft data. Fo
 - Added columns to identify if players were picked too high or low based on ranking features
 
 ## Exploratory Data Analysis
+Highlights from EDA
 
+![image scatter](/scatterplot.png)
+![image 1](/boxplot.png)
+![image 2](/bar_teams.png)
+![image 3](/bar_college.png)
+
+## Model Building and Scoring
+Started by creating dummy variables and splitting the data into training and test sets with a test size of 20%.
+
+I tested 4 different categorical models and used a scaler to improve the 2 most accurate ones. I used a simple accuracy score to determine the success of a model. 
+
+- K-nearest neighbors: accuracy = 
+- Naive Bayes: accuracy = 
+- Logistic Regression: accuracy = 
+- Decision Tree: accuracy = 
